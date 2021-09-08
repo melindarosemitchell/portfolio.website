@@ -1,0 +1,204 @@
+/*from tutorial*/
+
+
+/* Style the links inside the navigation bar */
+
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 84.5%;
+    background-color: white;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links. Show the iconthat should open and close the nav (.icon) */
+
+@media only screen and (max-width: 600px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media only screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: fixed;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+/*------------------------*/
+
+
+/*my stuff*/
+
+
+/*styles by tag ~ alphabetic*/
+
+figcaption {
+    background: #fff3f4;
+}
+
+header {
+    margin-top: 30px;
+}
+
+html {
+    background-image: url("background1.jpg");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: pre-wrap;
+    background-color: #fff3f4;
+}
+
+h2,
+#Skills {
+    color: darkmagenta;
+    text-align: center;
+    background-color: #fff3f4;
+}
+
+h4 {
+    font-style: oblique;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #fff3f4;
+}
+
+ol,ul {
+    background-color: #fff3f4;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 27px;
+    text-align: left;
+    list-style-type: none;
+}
+
+span {
+    font-size: 13.5pt;
+    font-style: italic;
+}
+
+
+/*styles by .class ~ alphabetic*/
+
+.about {
+    background-color: #fff3f4;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.contactform {
+    font-weight: bold;
+}
+
+.heading {
+    color: teal;
+}
+
+.list {
+    background-color: #fff3f4;
+}
+
+.list li {
+    color: darkgreen;
+    background-color: #fff3f4;
+}
+
+.name {
+    color: darkgoldenrod;
+    font-size: large;
+}
+
+.table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*styles by #id ~ alphabetic*/
+
+#AboutSection, #AccomplishmentsSection, #ContactSection {
+    padding: 20px;
+}
+
+#About {
+    text-transform: capitalize;
+}
+
+#Skills {
+    font-size: 24px;
+    display: block;
+}
+
+
+/*misc*/
+
+h2,h3,h4,table,h4,p,form {
+    background-color: #fff3f4;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
