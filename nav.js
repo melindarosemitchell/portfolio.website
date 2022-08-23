@@ -1,7 +1,7 @@
 //comments use this
 /*multiline comments use this*/
 
-alert('If you are reading this, you are adorable');
+/*alert('If you are reading this, you are adorable');*/
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
